@@ -22,6 +22,7 @@ public class BookTickets {
 	public Ticket getAllTickets(@RequestBody  Passenger p) {
 
 		Ticket bookTicket = serv.bookTicket(p);
+	    System.out.println("Hi all How are you ");
 
 		return bookTicket;
 
